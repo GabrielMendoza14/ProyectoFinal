@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <title>SQL</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li>
+            <a href="../../Index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="../editor.html">Editores</a>
+        </li>
+        <li>
+            <a href="../lenguaje.html">Lenguajes</a>
+        </li>
+        <li>
+            <a href="../GitHub.html">GitHub</a>
+        </li>
+        <li>
+            <a href="../formulario.html">Formulario</a>
+        </li>
+    </ul>
+    <h1>LENGUAJE DE PROGRAMACION</h1>
+    <h2>SQL</h2>
+    <img src= "../../Img/IMAGENES(1)/SQL.jpg" alt="imagen de sql" title="imagen del logo de sql" width="284" height="177">
+    <h2>¿Para qué se utiliza el lenguaje de programación SQL?</h2>
+    <h3>¿Qué es SQL?</h3>
+    <p>El lenguaje de consulta estructurada (SQL) es un lenguaje de programación para almacenar y procesar información en una base de datos relacional. Una base de datos relacional almacena información en forma de tabla, con filas y columnas que representan diferentes atributos de datos y las diversas relaciones entre los valores de datos. Puede usar las instrucciones SQL para almacenar, actualizar, eliminar, buscar y recuperar información de la base de datos. También puede usar SQL para mantener y optimizar el rendimiento de la base de datos.</p>
+    <h3>¿Por qué es importante SQL?</h3>
+    <p>El lenguaje de consulta estructurada (SQL) es un lenguaje de consulta popular que se usa con frecuencia en todos los tipos de aplicaciones. Los analistas y desarrolladores de datos aprenden y usan SQL porque se integra bien con los diferentes lenguajes de programación. Por ejemplo, pueden incrustar consultas SQL con el lenguaje de programación Java para crear aplicaciones de procesamiento de datos de alto rendimiento con los principales sistemas de bases de datos SQL, como Oracle o MS SQL Server. Además, SQL es muy fácil de aprender, ya que en sus instrucciones se utilizan palabras clave comunes en inglés.</p>
+    <h3>¿Cómo funciona SQL?</h3>
+    <p>La implementación del lenguaje de consulta estructurada (SQL) implica una máquina servidor que procese las consultas de la base de datos y devuelva los resultados. El proceso SQL pasa por varios componentes de software, incluidos los siguientes. </p>
+    <h5>Analizador</h5>
+    <p>El analizador comienza por tokenizar o reemplazar algunas de las palabras de la instrucción SQL con símbolos especiales. A continuación, comprueba si la instrucción tiene lo siguiente:</p>
+    <h6>Corrección</h6>
+    <p>El analizador verifica que la instrucción SQL se ajuste a la semántica o reglas de SQL que garantizan la corrección de la instrucción de la consulta. Por ejemplo, el analizador comprueba si el comando SQL termina con punto y coma. Si falta el punto y coma, el analizador devuelve un error.</p>
+    <h6>Autorización</h6>
+    <p>El analizador también valida que el usuario que ejecuta la consulta tenga la autorización necesaria para manipular los datos correspondientes. Por ejemplo, solo los usuarios administradores podrían tener derecho a eliminar datos. </p>
+    <h5>Motor relacional</h5>
+    <p>El motor relacional, o procesador de consultas, crea un plan para recuperar, escribir o actualizar los datos correspondientes de la manera más eficaz. Por ejemplo, busca consultas similares, vuelve a utilizar métodos de manipulación de datos anteriores o crea uno nuevo. Escribe el plan en una representación de nivel intermedio de la instrucción SQL llamada código de bytes. Las bases de datos relacionales utilizan el código de bytes para hacer búsquedas y modificaciones en ellas. </p>
+    <h5>Motor de almacenamiento</h5>
+    <p>El motor de almacenamiento, o motor de base de datos, es el componente de software que procesa el código de bytes y ejecuta la instrucción SQL deseada. Lee y almacena los datos en los archivos de la base de datos del almacenamiento en disco físico. Al finalizar, el motor de almacenamiento devuelve el resultado a la aplicación que lo solicita.</p>
+    <h3>¿Qué son los comandos SQL?</h3>
+    <p>Los comandos de lenguaje de consulta estructurada (SQL) son palabras clave o instrucciones SQL específicas que los desarrolladores utilizan para manipular los datos almacenados en una base de datos relacional. Puede clasificar los comandos SQL de la siguiente manera.</p>
+    <h5>Lenguaje de definición de datos</h5>
+    <p>El lenguaje de definición de datos (DDL) se refiere a comandos SQL que diseñan la estructura de la base de datos. Los ingenieros de bases de datos utilizan DDL para crear y modificar objetos de bases de datos en función de las necesidades empresariales. Por ejemplo, el ingeniero de bases de datos utiliza el comando CREATE para crear objetos de base de datos, como tablas, vistas e índices.</p>
+    <h5>Idioma de consulta de datos</h5>
+    <p>El lenguaje de consulta de datos (DQL) consiste en instrucciones para recuperar datos almacenados en bases de datos relacionales. Las aplicaciones de software usan el comando SELECT para filtrar y devolver resultados específicos de una tabla SQL. </p>
+    <h5>Lenguaje de manipulación de datos</h5>
+    <p>Las instrucciones del lenguaje de manipulación de datos (DML) escriben información nueva o modifican los registros existentes en una base de datos relacional. Por ejemplo, una aplicación usa el comando INSERT para almacenar un nuevo registro en la base de datos.</p>
+    <h5>Idioma de control de datos</h5>
+    <p>Los administradores de bases de datos usan el lenguaje de control de datos (DCL) para administrar o autorizar el acceso a la base de datos. Por ejemplo, pueden usar el comando GRANT para permitir que ciertas aplicaciones manipulen una o más tablas. </p>
+    <h5>Idioma de control de transacciones</h5>
+    <p>El motor relacional utiliza el lenguaje de control de transacciones (TCL) para hacer cambios en la base de datos de manera automática. Por ejemplo, la base de datos usa el comando ROLLBACK para deshacer una transacción errónea. </p>
+    <h3>¿Qué son los estándares de SQL?</h3>
+    <p>Los estándares SQL son un conjunto de pautas definidas formalmente del lenguaje de consulta estructurada (SQL). El Instituto Nacional Estadounidense de Estándares (ANSI) y la Organización Internacional de Normalización (ISO) adoptaron las normas SQL en 1986. Los proveedores de software usan los estándares ANSI de SQL con el fin de crear software de base de datos SQL para los desarrolladores.</p>
+    <h3>¿Qué es la inyección de código SQL?</h3>
+    <p>La inyección de código SQL es un ataque cibernético que implica engañar a la base de datos con consultas SQL. Los piratas informáticos usan la inyección de código SQL para recuperar, modificar o dañar los datos de una base de datos SQL. Por ejemplo, pueden rellenar una consulta SQL en vez del nombre de una persona en un formulario de envío para llevar a cabo un ataque de inyección de código SQL.</p>
+    <h3>LINK DE DESCARGA</h3>
+    <p><a href="https://dev.mysql.com/downloads/mysql/">PAGINA DONDE DESCARGAR SQL</a></p>
+</body>
+</html>
