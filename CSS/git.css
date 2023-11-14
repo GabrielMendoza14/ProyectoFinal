@@ -1,0 +1,26 @@
+.navbar {
+    background: rgb(145, 146, 154);
+    background: radial-gradient(circle, rgb(54, 54, 55) 0%, rgrgb(95, 94, 94)00%);
+}
+.navbar li {
+    display: inline-block;
+}  
+.navbar li a {
+    display: block;
+    color: chartreuse;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+body {
+    background-image: url('../Img/IMAGENES2/imagen_de_fondo.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: rgb(57, 195, 255);
+}
+.center-screen {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
