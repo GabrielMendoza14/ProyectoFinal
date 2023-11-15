@@ -7,7 +7,7 @@
 }  
 .navbar li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -15,7 +15,7 @@
 body {
     background-image: url('../Img/IMAGENES2/imagen_de_fondo.png');
     background-size: cover;
-    color: rgb(246, 246, 246);
+    color: white;
 }
 .center-screen {
     position: absolute;

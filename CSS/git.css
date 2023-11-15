@@ -7,7 +7,7 @@
 }  
 .navbar li a {
     display: block;
-    color: chartreuse;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -16,9 +16,14 @@ body {
     background-image: url('../Img/IMAGENES2/imagen_de_fondo.png');
     background-size: cover; 
     background-repeat: no-repeat; 
-    color: rgb(57, 195, 255);
+    color: white;
 }
 p{
     display: flex;
-    text-align: center;
+    margin-top: auto;
+    margin-left: 10%;
+}
+.img{
+    display: flex;
+    margin-left: 15%;
 }

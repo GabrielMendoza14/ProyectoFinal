@@ -16,7 +16,6 @@ body {
     background-image: url('../Img/IMAGENES2/imagen_de_fondo.png');
     background-size: cover; 
     background-repeat: no-repeat; 
-    color: rgb(57, 195, 255);
 }
 .tamaño{
     height: 120px;
