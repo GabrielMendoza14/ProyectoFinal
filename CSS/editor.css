@@ -17,5 +17,23 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
     color: white;
-    
+}
+.vs{
+    margin-left: 20%;
+    margin-top: -17%;
+}
+.atom{
+    margin-left: 20%;
+    margin-top: -15%;
+}
+.sublime{
+    margin-left: 20%;
+    margin-top: -13%;
+}
+.notepad{
+    margin-top: 5%;
+}
+.note{
+    margin-left: 20%;
+    margin-top: -10%;
 }
