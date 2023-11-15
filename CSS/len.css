@@ -18,3 +18,7 @@ body {
     background-repeat: no-repeat; 
     color: rgb(57, 195, 255);
 }
+.tamaño{
+    height: 120px;
+    width: 130px;
+}

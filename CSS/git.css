@@ -18,9 +18,7 @@ body {
     background-repeat: no-repeat; 
     color: rgb(57, 195, 255);
 }
-.center-screen {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+p{
+    display: flex;
+    text-align: center;
 }
